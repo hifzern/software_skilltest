@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+
+# Internal / non-published folders
+**/assets/
+reference_source/
+day1/soal_1_payload_firmware/
+day1/soal_2_cansat_gcs/
+day2/
+
+# Binary assets
+*.rar
+*.glb
+*.obj
+*.mtl
+*.jpg
+*.png
+*.ttf
+*.wav
