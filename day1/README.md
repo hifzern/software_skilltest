@@ -471,26 +471,3 @@ public partial class MainWindow : Window
   pip install pyserial
   ```
 * Paket tambahan hanya jika kamu memakai framework terkait (mis. `pip install customtkinter`, `pip install PyQt6`, `pip install streamlit streamlit-autorefresh`).
-
----
-
-## 7. Rubrik Penilaian
-
-| Komponen | Bobot | Kriteria Penilaian |
-|---|---|---|
-| **Konektivitas & Parsing** | 25% | Mampu menyambung ke simulator, mem-parsing 14 parameter CSV dengan tepat tanpa crash saat stream berjalan. |
-| **Penyajian Data Numerik** | 20% | Parameter utama (Alt, Press, Temp, Volt, Time, Count) tertata rapi, mudah dibaca, dan update tiap detik. |
-| **Real-time Live Graph** | 25% | Grafik Altitude vs Time dinamis bergerak mulus sesuai aliran data. |
-| **Flight State & Safety** | 15% | Perubahan fase (`LAUNCH_PAD`, `ASCENT`, `APOGEE`, `DESCENT`, `LANDED`) terlihat jelas dan intuitif. |
-| **UI/UX & Nilai Tambah** | 15% | Estetika tampilan dashboard, responsivitas, fitur bonus (Map/3D Attitude/CSV Logging). |
-
----
-
-## 8. Format Submission
-
-Kumpulkan arsip ZIP dengan nama `GCS_NamaPeserta.zip` berisi:
-1. Seluruh source code aplikasi GCS buatanmu.
-2. File `README.md` singkat yang menjelaskan:
-   * Teknologi/library yang digunakan (e.g. `pip install -r requirements.txt`).
-   * Cara menjalankan aplikasi GCS.
-3. Screenshot atau video demo singkat aplikasi saat menerima dan menampilkan data dari simulator.
